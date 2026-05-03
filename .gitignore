@@ -1,0 +1,10 @@
+*.log
+*.tmp
+.cache/
+node_modules/
+
+# neovim
+.config/nvim/lazy-lock.json
+
+# secrets
+.env
