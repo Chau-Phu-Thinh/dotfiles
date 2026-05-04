@@ -2,14 +2,14 @@
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
     "type": "auto", // hoặc "kitty-direct" nếu dùng Kitty/Ghostty (nhanh và nét hơn)
-    "source": "~/killian/.config/themes/fetch/Reze/*", // folder random của bạn
-    "height": 15, // ← Chiều cao cố định (dòng/characters) - thử từ 15-25 tùy terminal
+    "source": "~/.config/themes/fetch/Reze/*", // folder random của bạn
+    "height": 18, // ← Chiều cao cố định (dòng/characters) - thử từ 15-25 tùy terminal
     "width": 35, // ← Chiều rộng cố định (characters) - điều chỉnh để vừa modules bên phải
     "preserveAspectRatio": true, // Giữ tỷ lệ gốc, không bị méo (rất quan trọng!)
     // Nếu preserveAspectRatio = false thì ảnh sẽ stretch fill hết width/height, nhưng dễ méo
     "padding": {
       "top": 2, // Giảm để sát prompt hơn
-      "right": 2,
+      "right": 0,
       "left": 2
     }
   },
