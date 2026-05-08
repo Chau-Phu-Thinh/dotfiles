@@ -6,6 +6,7 @@
 // Input device configuration.
 // Find the full list of options on the wiki:
 // https://yalter.github.io/niri/Configuration:-Input
+prefer-no-csd
 input {
     keyboard {
         xkb {
@@ -319,8 +320,8 @@ window-rule {
   }
 }
 window-rule {
-  match app-id=r#"ghostty$"#
-  open-maximized true
+  match app-id=r#"^com.mitchellh.ghostty$"#
+  open-maximized-to-edges true
   
   opacity 0.75
   background-effect {
