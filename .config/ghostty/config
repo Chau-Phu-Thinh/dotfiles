@@ -1,5 +1,5 @@
 # Shader
-custom-shader = shaders/cursor_smear_original.glsl
+ custom-shader = shaders/cursor_smear.glsl
 # Font Configuration
 font-size = 15
 font-family  = MesloLGM Nerd Font
@@ -49,5 +49,4 @@ keybind = shift+enter=text:\n
 # Rando stuff
 gtk-single-instance = true
 
-# Dank color generation
-theme = dark:Black Metal,light:Pro Light
+theme = dark:Black Metal,light:Karasu Snow
