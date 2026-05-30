@@ -1,0 +1,127 @@
+{
+  "cascadeColors": true,
+  "colorBackground": true,
+  "palette": [
+    {
+      "id": "iuAnBdIUO6lC9FwKWcg6y",
+      "name": "red",
+      "value": "#ff5c5c"
+    },
+    {
+      "id": "5cQ7t4zD40rrOTwRBLrkJ",
+      "name": "emerald",
+      "value": "#b3ffdb"
+    },
+    {
+      "id": "bmJlzhD89u7qhg2-xOlLi",
+      "name": "light purple",
+      "value": "#ab7ec4"
+    },
+    {
+      "id": "_d6vwqtIp7tYO_KDcipKe",
+      "name": "blue",
+      "value": "#4691e2"
+    },
+    {
+      "id": "OIGlsyo0wKJGISdlO-fOx",
+      "name": "dark red",
+      "value": "#dc0404"
+    },
+    {
+      "id": "H-XKqrpNraEoN2nqqRuM0",
+      "name": "dark purple",
+      "value": "#a947d7"
+    },
+    {
+      "id": "zJw8N_VesIjnCt39NjbPh",
+      "name": "dark blue",
+      "value": "#1d5bbf"
+    },
+    {
+      "id": "q9l_6YdLYNcODcyTS50Ci",
+      "name": "White",
+      "value": "#ffffff"
+    },
+    {
+      "id": "UB9LTF2EQ9-ODE2LCUvxP",
+      "name": "grey",
+      "value": "#737373"
+    },
+    {
+      "id": "9SgIKkg5cijd_WfqQzg3q",
+      "name": "Pink",
+      "value": "#fdc9c9"
+    },
+    {
+      "id": "0xgFI0BFb3TAcpnScT2y_",
+      "name": "cyan",
+      "value": "#3fcefd"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Organisation/Tickets Home.md",
+      "color": "iuAnBdIUO6lC9FwKWcg6y"
+    },
+    {
+      "path": "Blue",
+      "color": "_d6vwqtIp7tYO_KDcipKe"
+    },
+    {
+      "path": "Common Issues",
+      "color": "iuAnBdIUO6lC9FwKWcg6y"
+    },
+    {
+      "path": "Projects",
+      "color": "OIGlsyo0wKJGISdlO-fOx"
+    },
+    {
+      "path": "z_Assets",
+      "color": "_d6vwqtIp7tYO_KDcipKe"
+    },
+    {
+      "path": "HOME/DASH.md",
+      "color": "bmJlzhD89u7qhg2-xOlLi"
+    },
+    {
+      "path": "Technical",
+      "color": "iuAnBdIUO6lC9FwKWcg6y"
+    },
+    {
+      "path": "Z_assets",
+      "color": "5cQ7t4zD40rrOTwRBLrkJ"
+    },
+    {
+      "path": "Business",
+      "color": "bmJlzhD89u7qhg2-xOlLi"
+    },
+    {
+      "path": "Vlog",
+      "color": "UB9LTF2EQ9-ODE2LCUvxP"
+    },
+    {
+      "path": "Blog",
+      "color": "q9l_6YdLYNcODcyTS50Ci"
+    },
+    {
+      "path": "ML/ClassNotes",
+      "color": "9SgIKkg5cijd_WfqQzg3q"
+    },
+    {
+      "path": "IELTS/Speaking",
+      "color": "_d6vwqtIp7tYO_KDcipKe"
+    },
+    {
+      "path": "SWE/Books/Software Engineering - Ian Sommerville.pdf",
+      "color": "OIGlsyo0wKJGISdlO-fOx"
+    },
+    {
+      "path": "appearance.json",
+      "color": "zJw8N_VesIjnCt39NjbPh"
+    },
+    {
+      "path": "ML/ClassNotes/Đề AI",
+      "color": "_d6vwqtIp7tYO_KDcipKe"
+    }
+  ]
+}

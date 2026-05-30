@@ -1,0 +1,10 @@
+{
+  "cssTheme": "Catppuccin",
+  "accentColor": "",
+  "theme": "system",
+  "baseFontSize": 20,
+  "baseFontSizeAction": true,
+  "nativeMenus": false,
+  "showRibbon": true,
+  "showViewHeader": true
+}
