@@ -4,22 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "09f2f4561fbdab3a",
+        "id": "b53ba38ae6c0b457",
         "type": "tabs",
         "children": [
           {
-            "id": "eaf3a9d0230d7016",
+            "id": "1f5857b2b253f5e3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "00 Study/01 SWE/013 Slides/PartII_2 Software Design.pdf",
+                "page": 1,
+                "zoom": 1
+              },
+              "icon": "lucide-file-text",
+              "title": "PartII_2 Software Design"
+            }
+          },
+          {
+            "id": "d15f407adefc4092",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "ML/ClassNotes/Đề AI/z7274267186789_7f6c26f6080d85befcb74770e2247457.jpg"
+                "file": "00 Study/04 ML/ClassNotes/Đề AI/z7274267186785_08a946323e4262aaa2420f69cd6ed6a0.jpg"
               },
               "icon": "lucide-image",
-              "title": "z7274267186789_7f6c26f6080d85befcb74770e2247457"
+              "title": "z7274267186785_08a946323e4262aaa2420f69cd6ed6a0"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394.5
+    "width": 277.01103591918945
   },
   "right": {
     "id": "279416c7625b4660",
@@ -105,12 +120,25 @@
         "type": "tabs",
         "children": [
           {
+            "id": "d9d668b13a6f6aa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Study/04 ML/Regression.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Regression"
+            }
+          },
+          {
             "id": "53f920f8060070a2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iPad MINI and FF Dec 2025.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +148,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for iPad MINI and FF Dec 2025"
+              "title": "Backlinks"
             }
           },
           {
@@ -129,12 +157,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/ClassNotes/Đề AI/z7274267186789_7f6c26f6080d85befcb74770e2247457.jpg",
+                "file": "00 Study/04 ML/ClassNotes/Đề AI/z7274267186756_add6811a2a6c2a8f78786eb34697a0b7.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from z7274267186789_7f6c26f6080d85befcb74770e2247457"
+              "title": "Outgoing links from z7274267186756_add6811a2a6c2a8f78786eb34697a0b7"
             }
           },
           {
@@ -150,6 +178,20 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
+            }
+          },
+          {
+            "id": "eaf3a9d0230d7016",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Study/01 SWE/012 ClassNotes/How AI effects on SWE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "How AI effects on SWE"
             }
           },
           {
@@ -180,28 +222,41 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "bb439ab5cc888a41",
+        "id": "fa1514a311f38cea",
         "type": "tabs",
         "children": [
           {
-            "id": "981d4ae76a88fb41",
+            "id": "e79a565fb4bc68fb",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "00 Study/04 ML/Supervised Learning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Supervised Learning"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 446.5
+    "width": 337.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,58 +270,62 @@
       "command-palette:Open command palette": false,
       "omnisearch:Omnisearch": false,
       "obsidian-importer:Open Importer": false,
-      "graph:Open graph view": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "graph:Open graph view": false
     }
   },
-  "active": "eaf3a9d0230d7016",
+  "active": "d15f407adefc4092",
   "lastOpenFiles": [
-    "ML/ClassNotes/Đề AI/z7274267186788_5122e3705c9052d93fcca8afcdc9c6f8.jpg",
-    "ML/ClassNotes/Đề AI/z7274267186786_89e140b79ea5635ea7bfbe8fc4ae17fc.jpg",
-    "ML/ClassNotes/Đề AI/z7274267186785_08a946323e4262aaa2420f69cd6ed6a0.jpg",
-    "ML/ClassNotes/Đề AI/z7274267186784_9249ffbd30482ee71e201a406912a175.jpg",
-    "ML/ClassNotes/Đề AI/z7274267186781_b8e21260d1f606df8e904611403b9e69.jpg",
-    "ML/ClassNotes/Đề AI/z7274267186780_1df3cb627beb97d59a175be9e132ef4f.jpg",
-    "ML/ClassNotes/Đề AI/z7274267186779_7c746a390d38751f01d934dd2f016e7f.jpg",
-    "ML/ClassNotes/Đề AI/z7274267186765_6b9f506fd7b4dfcdbe0e1508c69a40dd.jpg",
-    "ML/ClassNotes/Đề AI/z7274267186764_3bcdf0f8337d9de470a5247018e068c4.jpg",
-    "ML/ClassNotes/Đề AI/z7274267186762_0e6ed7ed9eb6dd6c8c0bfd4e7a8dbe99.jpg",
-    "ML/ClassNotes/Đề AI/z7274267186761_c5834edd538e53fb73a5725fc901c711.jpg",
-    "IELTS/Speaking/Positive change.md",
-    "ML/ClassNotes/Đề AI",
-    "ML/ClassNotes/Đề AI.zip",
-    "Excalidraw/8-puzzle.md",
-    "ML/ClassNotes/Prerequisite.md",
-    "Graph/Implement.md",
-    "IELTS",
+    "thumbnails/resized/472f8c9bf7b746f9ca6cfee65e3c79b9_86cf658e.webp",
+    "thumbnails/resized/648386fbef3e421e9c5163ad5a5e4907_86cf658e.webp",
+    "SWE/ClassNotes/Note1/Prerequisite.md",
+    "SWE/ClassNotes/Note1/Pasted image 20260512073751.png",
+    "SWE/ClassNotes/Note1/Pasted image 20260512073654.png",
+    "SWE/ClassNotes/Note1/Pasted image 20260512073430.png",
+    "SWE/ClassNotes/Note2.md",
+    "SWE/ClassNotes/Note1",
+    "SWE/ClassNotes/How AI effects on SWE.md",
+    "SWE/Books/Software Engineering - Ian Sommerville.pdf",
+    "SWE/Books/16_EBOOK-7th_ed_software_engineering_a_practitioners_approach_by_roger_s._pressman_.pdf",
+    "SWE/ClassNotes",
+    "SWE/Books",
+    "SWE",
     "ML/machine learning algorithm.md",
-    "ML/Classification.md",
+    "ML/baseline_final.md",
     "ML/Supervised Learning.md",
+    "ML/Regression.md",
+    "ML/Lecture 1.md",
     "ML/Heuristic Function.md",
     "ML/Ensemble Learning.md",
-    "ML/Lecture 1.md",
-    "ML/Regression.md",
-    "ML/baseline_final.md",
+    "ML/Classification.md",
+    "ML/ClassNotes/Đề AI/z7274268879509_9348a3fdd2d3b94ea97f230319d1a95c.jpg",
+    "ML/ClassNotes/Đề AI/z7274268879508_12b1b9d8a5227433a7745e3f7655dacc.jpg",
+    "ML/ClassNotes/Đề AI/z7274268879506_21dea565d07a14b88c8123e6dc9b40f9.jpg",
+    "ML/ClassNotes/Đề AI/z7274268879503_1311e2b604e83905a434313a4e843c01.jpg",
+    "ML/ClassNotes/Đề AI/z7274268879502_76e1b158980ae21bfa360dc2ce85c54f.jpg",
+    "ML/ClassNotes/Đề AI/z7274268879499_497519c777b9a01824c04aecb18d9ac6.jpg",
+    "ML/ClassNotes/Đề AI/AI_lab2_Astart.docx",
+    "ML/ClassNotes/Đề AI/AI_lab2.docx",
+    "ML/ClassNotes/Đề AI",
+    "ML/ClassNotes/Prerequisite.md",
+    "ML/ClassNotes/Liquid pouring.md",
     "ML/ClassNotes/Depth-First Search.md",
-    "Journal/2025-02-17.md",
-    "Technical/Snippet/EFCore InMemory Db Config with Test.md",
-    "Technical/Home/DASH.md",
-    "2025-02-16.md",
-    "Technical/Technical/Azure Cache for Redis (Pluralsight).md",
-    "Main Dash.md",
-    "Technical/Technical/SQLite vs SQL Server.md",
-    "Technical/Technical/API Authentications.md",
-    "Blue/Snippets/SQL Script Disposable Income.md",
-    "Journal/Blue/Journal/2024-06-14.md",
-    "Technical/Technical/Idempotency in rest api.md",
-    "publish the Obsidian Vid.md",
-    "Blog",
-    "Vlog",
-    "Business/Journal/Technical/Migrated/assets/Brand.psd",
-    "Business/Journal/Technical/Migrated/assets/Brand-techpress.psd",
-    "Business/Journal/Technical/Migrated/assets/Brand-C.psd",
-    "Business/Journal/Technical/Migrated/assets/Audio 1.mp4",
-    "Business/Journal/Technical/Technical/Self-Improvement",
+    "ML/ClassNotes",
+    "IELTS/Speaking/Positive change.md",
+    "Graph/Implement.md",
+    "Excalidraw/8-puzzle.md",
+    "Database/ClassNotes/Ex4.md",
+    "00 Study/01 SWE/Report/Note.md",
+    "00 Study/01 SWE/Report/Requirements.md",
+    "00 Study/04 ML/Supervised Learning.md",
+    "00 Study/01 SWE/Task.md",
+    "00 Study/01 SWE/012 ClassNotes/How AI effects on SWE.md",
+    "00 Study/01 SWE/012 ClassNotes/Note2.md",
+    "00 Study/01 SWE/012 ClassNotes/Note1/Prerequisite.md",
+    "03 Movie/Untitled.canvas",
     "Business/Journal/Technical/Migrated/Mind Map.canvas",
     "Journal/Technical/Migrated/Mind Map.canvas",
     "Technical/Migrated/Mind Map.canvas"
