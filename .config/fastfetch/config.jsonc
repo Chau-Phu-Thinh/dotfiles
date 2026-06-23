@@ -2,13 +2,13 @@
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
     "type": "auto", // hoặc "kitty-direct" nếu dùng Kitty/Ghostty (nhanh và nét hơn)
-    "source": "~/dotfiles/.config/themes/fetch/dark/vampire/*", // folder random của bạn
+    "source": "~/dotfiles/.config/themes/fetch/quote/*", // folder random của bạn
     "height": 18, // ← Chiều cao cố định (dòng/characters) - thử từ 15-25 tùy terminal
     "width": 38, // ← Chiều rộng cố định (characters) - điều chỉnh để vừa modules bên phải
     "preserveAspectRatio": true, // Giữ tỷ lệ gốc, không bị méo (rất quan trọng!)
     // Nếu preserveAspectRatio = false thì ảnh sẽ stretch fill hết width/height, nhưng dễ méo
     "padding": {
-      "top": 0,  
+      "top": 0,
       "right": 1,
       "left": 0
     }
@@ -26,7 +26,6 @@
       "key": "  󰀶 OS",
       "keyColor": "red"
     },
-    
     {
       "type": "kernel",
       "key": "   Kernel",

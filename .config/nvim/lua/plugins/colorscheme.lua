@@ -17,7 +17,7 @@ return {
     local is_light = vim.o.background == "light"
 
     require("oasis").setup({
-      transparent = true,
+      transparent = false,
       style = is_light and "starlight" or "abyss",
 
       dark_intensity = 5,
