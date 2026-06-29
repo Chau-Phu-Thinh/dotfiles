@@ -1,3 +1,0 @@
-[[Classification]] 
-[[Regression]]
-[[Ensemble Learning]]
