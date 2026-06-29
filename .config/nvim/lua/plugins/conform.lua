@@ -1,11 +1,12 @@
-require("conform").setup({
-  formatters_by_ft = {
-    json = { "prettier" },
-    jsonc = { "prettier" },
-  },
+return {
+  "stevearc/conform.nvim",
+  event = "VeryLazy", -- alternative if you prefer
 
-  format_on_save = {
-    lsp_fallback = "fallback",
-    timeout_ms = 500, -- Thời gian chờ format tối đa (nửa giây)
+  opts = {
+    formatters_by_ft = {
+      json = { "prettier" },
+      jsonc = { "prettier" },
+      -- Add more filetypes here
+    },
   },
-})
+}
