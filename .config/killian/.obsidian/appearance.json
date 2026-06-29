@@ -1,0 +1,17 @@
+{
+  "cssTheme": "Minimal",
+  "accentColor": "#ff0033",
+  "theme": "obsidian",
+  "baseFontSize": 20,
+  "baseFontSizeAction": true,
+  "nativeMenus": true,
+  "showRibbon": true,
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "theme",
+    "Daily Note Themes",
+    "Colored Sidebar Items",
+    "monochrome-void",
+    "Notebook Backgrounds"
+  ]
+}

@@ -10,21 +10,11 @@ alias restart="sudo reboot now"
 alias shutdown="sudo shutdown now"
 alias python="python3"
 alias ..="cd .."
-export PATH="$PATH:/home/killua/.local/bin"
 
-COLOR_MODE=$(gsettings get org.gnome.desktop.interface color-scheme)
-
-if [[ "$COLOR_MODE" == *"default"* ]]; then
-    POSH_THEME="$HOME/dotfiles/.config/oh-my-posh/themes/light-clean-detailed.omp.json"
-else
-    POSH_THEME="$HOME/dotfiles/.config/oh-my-posh/themes/dark-clean-detailed.omp.json"
-fi
-
-eval "$(oh-my-posh init zsh --config "$POSH_THEME")"
-
+export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
+eval "$(starship init zsh)"
 # opencode
 export PATH=/home/killua/.opencode/bin:$PATH
-
 
 # Added by Antigravity CLI installer
 export PATH="/home/killua/.local/bin:$PATH"
