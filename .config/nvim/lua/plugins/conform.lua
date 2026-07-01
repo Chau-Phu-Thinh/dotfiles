@@ -6,7 +6,9 @@ return {
     formatters_by_ft = {
       json = { "prettier" },
       jsonc = { "prettier" },
-      -- Add more filetypes here
+      markdown = { "prettier" },
+      cpp = { "clang_format" },
+      c = { "clang_format" },
     },
   },
 }
