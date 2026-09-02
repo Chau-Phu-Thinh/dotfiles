@@ -71,13 +71,17 @@ symbol = " "
 #symbol = " "
 
 [cmake]
+detect_folders = []
 symbol = " "
 
 [container]
 symbol = " "
 
 [python]
+detect_folders = []
+style = "#9d41fa"
 symbol = " "
+format ="[$symbol].($style)"
 
 [aws]
 symbol = " "
