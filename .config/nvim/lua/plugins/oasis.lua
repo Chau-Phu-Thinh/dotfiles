@@ -5,8 +5,8 @@ return {
     priority = 1000,
     config = function()
       require("oasis").setup({
-        style = "starlight",
-        light_style = "abyss",
+        style = "abyss",
+        light_style = "starlight",
         light_intensity = 1,
       })
     end,
