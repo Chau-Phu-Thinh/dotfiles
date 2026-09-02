@@ -2,7 +2,7 @@
  custom-shader = shaders/cursor_smear.glsl
 # Font Configuration
 font-size = 15
-#font-family  = MesloLGM Nerd Font
+font-family = FiraCode Nerd Font
 # Window Configuration
 window-decoration = false
 window-padding-x = 12
