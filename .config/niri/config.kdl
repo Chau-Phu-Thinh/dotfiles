@@ -315,21 +315,36 @@ animations {
 // https://yalter.github.io/niri/Configuration:-Window-Rules
 //
 window-rule {
-  match app-id=r#"spotify$"#
-  open-maximized true
+  match app-id=r#"Spotify$"#
+  open-maximized-to-edges true
   
-  opacity 0.55
+  opacity 0.5
   background-effect {
     blur true
   }
 }
 window-rule {
   match app-id=r#"^com.mitchellh.ghostty$"#
-  open-maximized true
-  opacity 0.65
+  open-maximized-to-edges true
+  opacity 0.55
   background-effect {
-    blur true
-  }
+        xray true
+        blur true
+        noise 0.05
+        saturation 3
+    }
+
+    popups {
+        opacity 0.5
+        geometry-corner-radius 15
+
+        background-effect {
+            xray true
+            blur true
+            noise 0.05
+            saturation 3
+        }
+    }
 }
 
 // Open the Firefox picture-in-picture player as floating by default.
