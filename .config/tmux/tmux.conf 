@@ -1,0 +1,130 @@
+# Enable Colours
+set -g default-terminal 'xterm-256color'
+set -as terminal-overrides ',xterm*:Tc:sitm=\E[3m'
+set -as terminal-overrides ',alacritty*:Tc:sitm=\E[3m'
+
+# Prefix Key
+set -g prefix C-a
+unbind C-b
+bind-key C-a send-prefix
+
+# Window and pane index start at 1
+set -g base-index 1
+set -g pane-base-index 1
+
+# Renumber windows when one is closed
+set -g renumber-windows on
+
+# Attach to another session instead of detaching when last window closes
+set -g detach-on-destroy off
+
+# Better clipboard integration on Wayland
+set -g set-clipboard on
+
+# Open new windows in current directory path
+bind c new-window -c "#{pane_current_path}"
+
+# Kill pane without confirmation
+bind x kill-pane
+
+# Quick switch between last two windows
+bind Space last-window
+
+# Break pane into its own window
+bind b break-pane
+
+# Split Windows
+unbind %
+bind | split-window -h -c "#{pane_current_path}"
+unbind '"'
+bind - split-window -v -c "#{pane_current_path}"
+
+# Reload Config
+unbind r
+bind r source-file ~/.config/tmux/tmux.conf \; display-message "󰑓 Config reloaded"
+
+# Resize Panes
+bind -r j resize-pane -D 5
+bind -r k resize-pane -U 5
+bind -r l resize-pane -R 5
+bind -r h resize-pane -L 5
+bind -r m resize-pane -Z
+
+# Enable Mouse
+set -g mouse on
+
+# Scrollback
+set -g history-limit 50000
+
+# Status messages display time
+set -g display-time 2000
+
+# Status bar refresh interval
+set -g status-interval 5
+
+# VIM motions
+set-window-option -g mode-keys vi
+bind-key -T copy-mode-vi 'v' send -X begin-selection
+
+# Enable Mouse Dragging
+unbind -T copy-mode-vi MouseDragEnd1Pane
+
+# Status Line Position
+set-option -g status-position top
+
+##### Plugins #####
+set -g @plugin 'christoomey/vim-tmux-navigator'
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-continuum'
+set -g @plugin 'tmux-plugins/tmux-yank'
+
+##### Theme (melange) #####
+# bg      #292522  main dark background
+# float   #201c19  darker floating/message background
+# fg      #ece1d7  main foreground
+# muted   #887a6e  comment / muted gray-brown
+# yellow  #ebc06d  accent (was #e2c779)
+# red     #d47766  warm accent (was #ff6b8a)
+set -g status-style bg='#292522',fg='#ece1d7'
+set -g message-style bg='#201c19',fg='#ebc06d'
+set -g pane-border-style fg='#887a6e'
+set -g pane-active-border-style fg='#ebc06d'
+set -g mode-style bg='#ebc06d',fg='#292522'
+set -g status-left-length 60
+set -g status-left "#[fg=#ebc06d,bg=#292522]#[fg=#292522,bg=#ebc06d,bold] #S  #[fg=#ebc06d,bg=#292522]"
+set -g status-right-length 120
+set -g status-right "#[fg=#292522]#[fg=#ece1d7,bg=#292522] 󰥔 %H:%M #[fg=#ece1d7] #[fg=#887a6e]󰃭 %Y-%m-%d #[fg=#292522]#[fg=#d47766,bg=#292522] 󰅒 #(whoami)@#H "
+set -g window-status-format "#[fg=#887a6e] 󰈚 #I:#W "
+set -g window-status-current-format "#[fg=#ece1d7,bg=#201c19,bold] 󰈚 #I:#W #[default]"
+set -g window-status-separator ""
+
+##### Auto Save / Restore #####
+set -g @resurrect-capture-pane-contents 'on'
+set -g @continuum-restore 'on'
+set -g @continuum-save-interval '1'
+
+##### Neovim CheckHealth Recommendations #####
+set-option -sg escape-time 10
+set-option -g focus-events on
+
+##### Pop-Up: Session List #####
+bind w display-popup -E -b rounded -T " Sessions" -w 30% -h 50% ~/.config/tmux/scripts/tmux-menu.sh
+
+##### Pop-Up: Scratch Pad #####
+bind T display-popup -E -w 80% -h 80% ~/.config/tmux/scripts/tmux-scratch.sh
+bind -T popup t send-keys t
+bind -T popup q send-keys q
+bind -T popup T detach
+bind -T popup C-[ copy-mode
+unbind -T popup Tab
+
+##### Pop-Up: LazyGit #####
+bind g display-popup -d "#{pane_current_path}" -E -b none -w 80% -h 80% lazygit
+
+##### Pop-Up: SSH Menu #####
+bind S display-popup -E -b none -w 40% -h 50% ~/.config/tmux/scripts/tmux-ssh.sh
+
+##### TPM Init #####
+set-environment -g TMUX_PLUGIN_MANAGER_PATH '~/.config/tmux/plugins'
+run '~/.config/tmux/plugins/tpm/tpm'
