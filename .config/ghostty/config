@@ -1,14 +1,17 @@
 # Shader
  custom-shader = shaders/cursor_smear.glsl
+
 # Font Configuration
 font-size = 15
 font-family  = "~/dotfiles/.config/fonts/FiraCode"
+
 # Window Configuration
-window-decoration = false
+window-decoration = auto
 window-padding-x = 12
 window-padding-y = 12
-# background-opacity = 0.88
+background-opacity = 0.15
 background-blur-radius = 25
+working-directory = inherit
 
 # Cursor Configuration
 cursor-style = block
@@ -46,6 +49,8 @@ unfocused-split-fill = #44464f
 
 # Tab configuration
 gtk-titlebar = false
+tab-inherit-working-directory = true
+split-inherit-working-directory = true
 
 # Shell integration
 shell-integration = detect

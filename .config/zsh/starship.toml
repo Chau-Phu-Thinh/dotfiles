@@ -1,0 +1,112 @@
+"$schema" = "https://starship.rs/config-schema.json"
+
+add_newline = false
+
+# Minimal style - clean and simple
+format = """
+$username\
+$directory \
+$git_branch$git_status\
+$docker_context\
+$kubernetes\
+${env_var.CLAUDE_MODEL} \
+${env_var.CLAUDE_CONTEXT} \
+${env_var.CLAUDE_COST}\
+"""
+right_format = """
+$aws\
+$container\
+$c\
+$python\
+$lua\
+$golang\
+$nodejs\
+$cmake\
+$time\
+"""
+
+[sudo]
+symbol = " "
+
+[directory]
+style = "fg:sky"
+format = "[$path]($style)"
+truncation_length = 5
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+symbol = ""
+style = "fg:maroon"
+format = "[$branch]($style)"
+
+[git_status]
+style = "fg:maroon"
+format = "[($all_status$ahead_behind)]($style)"
+
+[env_var.CLAUDE_MODEL]
+variable = "CLAUDE_MODEL"
+format = "[$env_value]($style)"
+style = "fg:sapphire"
+
+[env_var.CLAUDE_CONTEXT]
+variable = "CLAUDE_CONTEXT"
+format = "[$env_value]($style)"
+style = "fg:peach"
+
+[env_var.CLAUDE_COST]
+variable = "CLAUDE_COST"
+format = "[$env_value]($style)"
+style = "fg:green"
+
+[c]
+symbol = " "
+
+#[cpp]
+#symbol = " "
+
+[cmake]
+detect_folders = []
+symbol = " "
+
+[container]
+symbol = " "
+
+[python]
+detect_folders = []
+symbol = " "
+
+[aws]
+symbol = " "
+
+[docker_context]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[kubernetes]
+symbol = "󱃾 "
+
+[lua]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[time]
+disabled = false
+time_format = "%T" # Hour:Minute Format
+style = "fg:ffffff"
+format = '[ ♥ $time ]($style)'
+
+[username]
+show_always = true
+style_user = "fg: ffffff"
+format = '[$user]($style) in '
+disabled = false
